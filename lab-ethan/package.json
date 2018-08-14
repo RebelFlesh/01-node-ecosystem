@@ -1,0 +1,24 @@
+{
+  "name": "01-node-ecosystem",
+  "version": "1.0.0",
+  "description": "![CF](http://i.imgur.com/7v5ASc8.png) 01: Node Ecosystem\r ===",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RebelFlesh/01-node-ecosystem.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RebelFlesh/01-node-ecosystem/issues"
+  },
+  "homepage": "https://github.com/RebelFlesh/01-node-ecosystem#readme",
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "jest": "^23.5.0"
+  }
+}
