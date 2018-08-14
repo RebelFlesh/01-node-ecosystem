@@ -21,4 +21,11 @@ describe('sub', ()=> {
     expect(arithmetic.sub(7,'goodbye')).toBe(null);
     expect(arithmetic.sub({type:'apple'},false)).toBe(null);
   });
+
+  it('subtracts two integers from eachother', ()=> {
+    expect(arithmetic.sub(0,-1)).toBe(1);
+    expect(arithmetic.sub(-10.5,4.5)).toBe(-15);
+    expect(arithmetic.sub(-2,-2)).toBe(0);
+    expect(arithmetic.sub(50,8)).toBe(42);
+  });
 });
