@@ -14,3 +14,11 @@ describe('add',() => {
     expect(arithmetic.add(-8,-2)).toBe(-10);
   });
 });
+
+describe('sub', ()=> {
+  it('returns null when given an invalid input', ()=> {
+    expect(arithmetic.sub([4,5,6],'goodbye')).toBe(null);
+    expect(arithmetic.sub(7,'goodbye')).toBe(null);
+    expect(arithmetic.sub({type:'apple'},false)).toBe(null);
+  });
+});
